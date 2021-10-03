@@ -8,7 +8,7 @@ const Cart = (props) => {
     // const total = cart.reduce(totalReducer, 0);
     let totalQuantity = 0;
     let total = 0;
-    for (const product of cart) {
+    for (const product of  cart) {
         if (!product.quantity) {
             product.quantity = 1;
         }
