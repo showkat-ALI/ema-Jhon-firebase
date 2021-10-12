@@ -9,8 +9,7 @@ import Login from "./components/LogIN/Login";
 import PlaceOrder from "./components/PlaceOrder/PlaceOrder"
 import Signup from "./components/Registration/Signup";
 import AuthProvider from "./Context/AuthProvider";
-import PrivateRoute from "./components/PrivateRoute/PrivateRoute";
-
+import PrivateRoute from "./components/PrivateRoute/PrivateRoute"
 function App() {
   return (
     <div>
